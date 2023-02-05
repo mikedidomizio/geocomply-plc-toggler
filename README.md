@@ -11,6 +11,7 @@ or download the script from the [Releases page](https://github.com/mikedidomizio
 
 - Download the zip file above, and unzip it
 - Run it via `open toggle_geocomply_plc.app`
+
 Result: PLC software should start or stop depending on the current state
 
 ## Running it from the Finder window
@@ -18,7 +19,22 @@ Result: PLC software should start or stop depending on the current state
 - Download the zip file above, and unzip it
 - Open the created folder, find the file `toggle_geocomply_plc.app`
 - Double click it
+
 Result: PLC software should start or stop depending on the current state
+
+## Debugging (it's not working)
+
+If it doesn't appear to be working properly, run the command like the following from the terminal
+
+```shell
+open toggle_geocomply_plc.app/toggle_geocomply_plc
+```
+
+Some of the reasons it may not be working:
+
+- PLC is not installed
+- OSX version has not been tested and does not currently work with app
+- PLC version has not been tested and does not currently work with app
 
 ## How it works
 
