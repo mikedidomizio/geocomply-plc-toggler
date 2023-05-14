@@ -48,4 +48,5 @@ When the application is run:
 
 ## Notes
 
+Tested on OSX 12.5 with PLC 4.0.0.4
 Tested on OSX 12.5 with PLC 3.1.1.3
